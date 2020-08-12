@@ -1,0 +1,46 @@
+body,h1,h2,h3,h4,h5{
+    margin:0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#3c3c3c;
+}
+img{
+    border:none;
+    vertical-align: middle;/*解决图片底部空白*/
+}
+i{
+    font-style: normal;
+}
+input{
+    margin:0px;
+    padding:0px;
+}
+button{
+    padding:0px;
+    margin:0px;
+    outline:none;   
+}
+table{
+    border-collapse: collapse;
+}
+th,td{
+    padding:0px;
+}
+/* 仿写网页必备部分 */
+/* 行高可取值：
+line-height:noraml
+line-height:20%;0.2*font-size 大部分使用，会继承父级，子元素计算行高会用自己的字体大小*父级元素的line-height,不用这个则是直接继承父级元素的line-height
+line-heihgt:20px；固定值
+line-height:3em;3*font-size
+受字体大小影响 */
+body{
+    font: 12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color:#3c3c3c;
+    background-color:#f4f4f4;
+}
